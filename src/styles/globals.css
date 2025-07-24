@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+.synonym-finder {
+  display: flex;
+  width: 100vw;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -30,4 +39,10 @@
   width: 300px;
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+li {
+  list-style: decimal;
+  text-transform: capitalize;
 }
